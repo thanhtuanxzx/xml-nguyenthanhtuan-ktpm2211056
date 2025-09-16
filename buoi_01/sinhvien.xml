@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lophoc>
+    <sinhvien>
+        <name>Nguyễn Thành Tuấn</name>
+        <id>KTPM2211057</id>
+        <subjects>
+            <subject>
+                <subject_name>Lập trình Web</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Cơ sở dữ liệu</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Trí tuệ nhân tạo</subject_name>
+                <score>9.2</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <name>Trần Thị Mai</name>
+        <id>KTPM2211034</id>
+        <subjects>
+            <subject>
+                <subject_name>Mạng máy tính</subject_name>
+                <score>8.0</score>
+            </subject>
+            <subject>
+                <subject_name>Hệ điều hành</subject_name>
+                <score>7.8</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <name>Lê Văn Hoàng</name>
+        <id>KTPM2211099</id>
+        <subjects>
+            <subject>
+                <subject_name>Nhập môn lập trình</subject_name>
+                <score>8.7</score>
+            </subject>
+            <subject>
+                <subject_name>Cấu trúc dữ liệu và Giải thuật</subject_name>
+                <score>9.1</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+</lophoc>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
+
+    <order:order id="O001" customer="Nguyễn Thành Tuấn" date="2025-09-16">
+        <prod:item id="P001" quantity="2" price="5000000" currency="VND">
+            <prod:name>Điện thoại Samsung Galaxy S24</prod:name>
+        </prod:item>
+        <prod:item id="P002" quantity="1" price="18000000" currency="VND">
+            <prod:name>Laptop Dell XPS 13</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="O002" customer="Trần Thị Mai" date="2025-09-15">
+        <prod:item id="P003" quantity="3" price="350000" currency="VND">
+            <prod:name>Tai nghe Bluetooth</prod:name>
+        </prod:item>
+        <prod:item id="P004" quantity="2" price="2500000" currency="VND">
+            <prod:name>Màn hình LG 24 inch</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="1" price="12000000" currency="VND">
+            <prod:name>MacBook Air M2</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>

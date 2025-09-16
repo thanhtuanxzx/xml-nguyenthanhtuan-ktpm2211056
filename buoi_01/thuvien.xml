@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach id="1">
+        <title>Lập Trình Web Với NodeJS và NextJS</title>
+        <author>Nguyễn Thành Tuấn</author>
+        <year>2025</year>
+        <genre>Công nghệ - Lập trình</genre>
+    </sach>
+    <sach id="2">
+        <title>Trí Tuệ Nhân Tạo Trong Y Tế</title>
+        <author>Nguyễn Thành Tuấn</author>
+        <year>2024</year>
+        <genre>Nghiên cứu - Ứng dụng</genre>
+    </sach>
+    <sach id="3">
+        <title>Hành Trình Nhật Bản: Văn Hóa và Ngôn Ngữ</title>
+        <author>Nguyễn Thành Tuấn</author>
+        <year>2023</year>
+        <genre>Văn hóa - Giáo dục</genre>
+    </sach>
+</thuvien>

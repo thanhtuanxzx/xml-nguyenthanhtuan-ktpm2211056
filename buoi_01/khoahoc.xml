@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elearning
+  xmlns:course="http://example.com/course"
+  xmlns:instructor="http://example.com/instructor"
+  xmlns:student="http://example.com/student">
+
+  <course:course id="C001" category="Lập trình">
+    <course:title>Next.js và Node.js Fullstack</course:title>
+
+    <instructor:instructor id="I001">
+      <instructor:name>Nguyễn Thành Tuấn</instructor:name>
+      <instructor:email>kaius@example.com</instructor:email>
+    </instructor:instructor>
+
+    <course:students>
+      <student:student id="S001" progress="85">
+        <student:name>Trần Thị B</student:name>
+      </student:student>
+      <student:student id="S002" progress="60">
+        <student:name>Hoàng Minh C</student:name>
+      </student:student>
+    </course:students>
+  </course:course>
+
+  <course:course id="C002" category="Thiết kế">
+    <course:title>Thiết kế UI/UX với Figma</course:title>
+
+    <instructor:instructor id="I002">
+      <instructor:name>Phạm Thu Hà</instructor:name>
+      <instructor:email>hapt@example.com</instructor:email>
+    </instructor:instructor>
+
+    <course:students>
+      <student:student id="S003" progress="72">
+        <student:name>Lê Văn D</student:name>
+      </student:student>
+      <student:student id="S004" progress="40">
+        <student:name>Ngô Thảo E</student:name>
+      </student:student>
+      <student:student id="S005" progress="91">
+        <student:name>Võ Quốc F</student:name>
+      </student:student>
+    </course:students>
+  </course:course>
+
+</elearning>
