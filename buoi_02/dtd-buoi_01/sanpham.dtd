@@ -1,0 +1,8 @@
+<!ELEMENT cuahang (sanpham+)>
+<!ELEMENT sanpham EMPTY>
+<!ATTLIST sanpham
+    id CDATA #REQUIRED
+    category CDATA #REQUIRED
+    price CDATA #REQUIRED
+    currency CDATA #REQUIRED>
+

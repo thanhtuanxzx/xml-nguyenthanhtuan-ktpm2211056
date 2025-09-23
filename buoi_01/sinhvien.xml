@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lophoc SYSTEM "../buoi_02/dtd-buoi_01/sinhvien.dtd">
 <lophoc>
     <sinhvien>
         <name>Nguyễn Thành Tuấn</name>

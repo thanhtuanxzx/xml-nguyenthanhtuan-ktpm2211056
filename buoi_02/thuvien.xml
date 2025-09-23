@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE thuvien SYSTEM "thuvien.dtd">
+<thuvien>
+  <sach id="S001">
+    <title>Lập Trình Python Cơ Bản</title>
+    <author>Phạm Minh</author>
+    <year>2021</year>
+    <genre>Lập trình</genre>
+  </sach>
+
+  <sach id="S002">
+    <title>Cơ Sở Dữ Liệu</title>
+    <author>Lê Hoa</author>
+    <year>2019</year>
+    <genre>Cơ sở dữ liệu</genre>
+  </sach>
+
+  <sach id="S003">
+    <title>Phân Tích Thiết Kế Hệ Thống</title>
+    <author>Nguyễn Long</author>
+    <year>2020</year>
+    <genre>Kỹ thuật phần mềm</genre>
+  </sach>
+</thuvien>

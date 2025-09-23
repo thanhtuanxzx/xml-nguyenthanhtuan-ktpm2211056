@@ -1,0 +1,15 @@
+<!ELEMENT orders (order+)>
+<!ELEMENT order (item+)>
+<!ELEMENT item (name)>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST order
+    id CDATA #REQUIRED
+    customer CDATA #REQUIRED
+    date CDATA #REQUIRED>
+
+<!ATTLIST item
+    id CDATA #REQUIRED
+    quantity CDATA #REQUIRED
+    price CDATA #REQUIRED
+    currency CDATA #REQUIRED>

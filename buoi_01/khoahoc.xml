@@ -1,46 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elearning
-  xmlns:course="http://example.com/course"
-  xmlns:instructor="http://example.com/instructor"
-  xmlns:student="http://example.com/student">
+<!DOCTYPE elearning SYSTEM "../buoi_02/dtd-buoi_01/khoahoc.dtd">
+<elearning>
 
-  <course:course id="C001" category="Lập trình">
-    <course:title>Next.js và Node.js Fullstack</course:title>
+  <course id="C001" category="Lập trình">
+    <title>Next.js và Node.js Fullstack</title>
 
-    <instructor:instructor id="I001">
-      <instructor:name>Nguyễn Thành Tuấn</instructor:name>
-      <instructor:email>kaius@example.com</instructor:email>
-    </instructor:instructor>
+    <instructor id="I001">
+      <name>Nguyễn Thành Tuấn</name>
+      <email>kaius@example.com</email>
+    </instructor>
 
-    <course:students>
-      <student:student id="S001" progress="85">
-        <student:name>Trần Thị B</student:name>
-      </student:student>
-      <student:student id="S002" progress="60">
-        <student:name>Hoàng Minh C</student:name>
-      </student:student>
-    </course:students>
-  </course:course>
+    <students>
+      <student id="S001" progress="85">
+        <name>Trần Thị B</name>
+      </student>
+      <student id="S002" progress="60">
+        <name>Hoàng Minh C</name>
+      </student>
+    </students>
+  </course>
 
-  <course:course id="C002" category="Thiết kế">
-    <course:title>Thiết kế UI/UX với Figma</course:title>
+  <course id="C002" category="Thiết kế">
+    <title>Thiết kế UI/UX với Figma</title>
 
-    <instructor:instructor id="I002">
-      <instructor:name>Phạm Thu Hà</instructor:name>
-      <instructor:email>hapt@example.com</instructor:email>
-    </instructor:instructor>
+    <instructor id="I002">
+      <name>Phạm Thu Hà</name>
+      <email>hapt@example.com</email>
+    </instructor>
 
-    <course:students>
-      <student:student id="S003" progress="72">
-        <student:name>Lê Văn D</student:name>
-      </student:student>
-      <student:student id="S004" progress="40">
-        <student:name>Ngô Thảo E</student:name>
-      </student:student>
-      <student:student id="S005" progress="91">
-        <student:name>Võ Quốc F</student:name>
-      </student:student>
-    </course:students>
-  </course:course>
+    <students>
+      <student id="S003" progress="72">
+        <name>Lê Văn D</name>
+      </student>
+      <student id="S004" progress="40">
+        <name>Ngô Thảo E</name>
+      </student>
+      <student id="S005" progress="91">
+        <name>Võ Quốc F</name>
+      </student>
+    </students>
+  </course>
 
 </elearning>

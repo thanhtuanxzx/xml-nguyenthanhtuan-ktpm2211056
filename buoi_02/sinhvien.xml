@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sinhviens SYSTEM "sinhvien.dtd">
+<sinhviens>
+  <sinhvien id="SV001">
+    <hoten>Nguyễn Văn An</hoten>
+    <ngaysinh>2002-05-12</ngaysinh>
+    <chuyennganh>Công nghệ Thông tin</chuyennganh>
+  </sinhvien>
+
+  <sinhvien id="SV002">
+    <hoten>Trần Thị Bình</hoten>
+    <ngaysinh>2001-11-23</ngaysinh>
+    <chuyennganh>Hệ thống Thông tin</chuyennganh>
+  </sinhvien>
+</sinhviens>

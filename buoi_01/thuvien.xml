@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE thuvien SYSTEM "../buoi_02/dtd-buoi_01/thuvien.dtd">
 <thuvien>
     <sach id="1">
         <title>Lập Trình Web Với NodeJS và NextJS</title>

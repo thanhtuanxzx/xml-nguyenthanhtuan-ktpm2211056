@@ -1,0 +1,7 @@
+<!ELEMENT sinhviens (sinhvien+)>
+<!ELEMENT sinhvien (hoten, ngaysinh, chuyennganh)>
+<!ATTLIST sinhvien
+          id ID #REQUIRED>
+<!ELEMENT hoten (#PCDATA)>
+<!ELEMENT ngaysinh (#PCDATA)>
+<!ELEMENT chuyennganh (#PCDATA)>

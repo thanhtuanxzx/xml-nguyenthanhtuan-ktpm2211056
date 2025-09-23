@@ -1,0 +1,9 @@
+<!ELEMENT thuvien (sach+)>
+<!ELEMENT sach (title, author, year, genre)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+
+<!ATTLIST sach
+    id CDATA #REQUIRED>

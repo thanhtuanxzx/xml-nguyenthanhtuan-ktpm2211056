@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "donhang.dtd">
+<orders>
+  <order id="O001">
+    <product id="P001">
+      <name>Tai nghe Bluetooth</name>
+      <quantity>2</quantity>
+    </product>
+    <product id="P002">
+      <name>Chuột không dây</name>
+      <quantity>1</quantity>
+    </product>
+  </order>
+
+  <order id="O002">
+    <product id="P003">
+      <name>Bàn phím cơ</name>
+      <quantity>3</quantity>
+    </product>
+    <product id="P004">
+      <name>Màn hình 24 inch</name>
+      <quantity>2</quantity>
+    </product>
+  </order>
+</orders>

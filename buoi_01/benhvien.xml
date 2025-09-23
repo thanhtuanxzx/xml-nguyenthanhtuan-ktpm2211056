@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hospital xmlns="http://example.com/hospital"
-          xmlns:pat="http://example.com/patient"
-          xmlns:doc="http://example.com/doctor"
-          xmlns:app="http://example.com/appointment">
+<!DOCTYPE hospital SYSTEM "../buoi_02/dtd-buoi_01/benhvien.dtd">
+<hospital>
 
-    <app:appointment id="A001" date="2025-09-16" status="Đã khám">
-        <pat:patient id="P001">
-            <pat:name>Nguyễn Thành Tuấn</pat:name>
-            <pat:dob>2003-04-12</pat:dob>
-        </pat:patient>
-        <doc:doctor id="D001">
-            <doc:name>Trần Văn Minh</doc:name>
-            <doc:specialty>Nội khoa</doc:specialty>
-        </doc:doctor>
-    </app:appointment>
+    <appointment id="A001" date="2025-09-16" status="Đã khám">
+        <patient id="P001">
+            <name>Nguyễn Thành Tuấn</name>
+            <dob>2003-04-12</dob>
+        </patient>
+        <doctor id="D001">
+            <name>Trần Văn Minh</name>
+            <specialty>Nội khoa</specialty>
+        </doctor>
+    </appointment>
 
-    <app:appointment id="A002" date="2025-09-20" status="Chưa khám">
-        <pat:patient id="P002">
-            <pat:name>Phạm Thị Hoa</pat:name>
-            <pat:dob>1998-11-23</pat:dob>
-        </pat:patient>
-        <doc:doctor id="D002">
-            <doc:name>Lê Thị Hạnh</doc:name>
-            <doc:specialty>Nhi khoa</doc:specialty>
-        </doc:doctor>
-    </app:appointment>
+    <appointment id="A002" date="2025-09-20" status="Chưa khám">
+        <patient id="P002">
+            <name>Phạm Thị Hoa</name>
+            <dob>1998-11-23</dob>
+        </patient>
+        <doctor id="D002">
+            <name>Lê Thị Hạnh</name>
+            <specialty>Nhi khoa</specialty>
+        </doctor>
+    </appointment>
 
 </hospital>

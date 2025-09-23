@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+<!DOCTYPE company SYSTEM "../buoi_02/dtd-buoi_01/nhansu.dtd">
+<company>
 
-    <dep:department name="Kỹ thuật phần mềm">
-        <hr:employee id="E001">
-            <hr:name>Nguyễn Thành Tuấn</hr:name>
-            <hr:position>Trưởng nhóm phát triển</hr:position>
-        </hr:employee>
-        <hr:employee id="E002">
-            <hr:name>Trần Văn Minh</hr:name>
-            <hr:position>Lập trình viên Backend</hr:position>
-        </hr:employee>
-    </dep:department>
+    <department name="Kỹ thuật phần mềm">
+        <employee id="E001">
+            <name>Nguyễn Thành Tuấn</name>
+            <position>Trưởng nhóm phát triển</position>
+        </employee>
+        <employee id="E002">
+            <name>Trần Văn Minh</name>
+            <position>Lập trình viên Backend</position>
+        </employee>
+    </department>
 
-    <dep:department name="Nhân sự">
-        <hr:employee id="E003">
-            <hr:name>Nguyễn Thị Hoa</hr:name>
-            <hr:position>Trưởng phòng nhân sự</hr:position>
-        </hr:employee>
-        <hr:employee id="E004">
-            <hr:name>Lê Văn Hoàng</hr:name>
-            <hr:position>Chuyên viên tuyển dụng</hr:position>
-        </hr:employee>
-    </dep:department>
+    <department name="Nhân sự">
+        <employee id="E003">
+            <name>Nguyễn Thị Hoa</name>
+            <position>Trưởng phòng nhân sự</position>
+        </employee>
+        <employee id="E004">
+            <name>Lê Văn Hoàng</name>
+            <position>Chuyên viên tuyển dụng</position>
+        </employee>
+    </department>
 
 </company>

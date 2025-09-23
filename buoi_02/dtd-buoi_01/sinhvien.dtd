@@ -1,0 +1,8 @@
+<!ELEMENT lophoc (sinhvien+)>
+<!ELEMENT sinhvien (name, id, subjects)>
+<!ELEMENT subjects (subject+)>
+<!ELEMENT subject (subject_name, score)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT subject_name (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
