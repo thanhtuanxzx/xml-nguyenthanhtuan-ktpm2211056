@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="thuvien.xsd">
+
+    <sach id="B001">
+        <title>Lập trình Java</title>
+        <author>Nguyễn Văn A</author>
+        <year>2018</year>
+        <genre>Khoa học máy tính</genre>
+    </sach>
+
+    <sach id="B002">
+        <title>Kinh tế học đại cương</title>
+        <author>Trần Thị B</author>
+        <year>2020</year>
+        <genre>Kinh tế</genre>
+    </sach>
+
+</thuvien>

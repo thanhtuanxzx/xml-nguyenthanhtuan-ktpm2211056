@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sinhviens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="sinhvien.xsd">
+
+    <sinhvien id="SV01">
+        <hoten>Nguyễn Văn An</hoten>
+        <ngaysinh>1998-05-12</ngaysinh>
+        <chuyennganh>Công nghệ thông tin</chuyennganh>
+    </sinhvien>
+
+    <sinhvien id="SV02">
+        <hoten>Trần Thị Bình</hoten>
+        <ngaysinh>1999-11-20</ngaysinh>
+        <chuyennganh>Kinh tế</chuyennganh>
+    </sinhvien>
+
+</sinhviens>

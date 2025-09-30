@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="student_IDREF.xsd">
+
+    <student id="SV01">
+        <name>Nguyễn Thị Thanh Thúy</name>
+        <date>1997-12-20</date>
+    </student>
+
+    <student id="SV02">
+        <name>Lê Thị Hồng Cẩm</name>
+        <date>1998-01-21</date>
+    </student>
+
+    <student id="SV03">
+        <name>Lê Thị Hồng Cầm</name>
+        <date>1997-11-11</date>
+    </student>
+
+    <enrollment studentRef="SV01" course="Toan101"/>
+    <enrollment studentRef="SV03" course="VatLy203"/>
+    <enrollment studentRef="SV02" course="VatLy203"/>
+
+</school>
