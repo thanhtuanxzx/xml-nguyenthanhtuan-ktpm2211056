@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.ctut.edu.vn/restaurant"
+           xmlns="http://www.ctut.edu.vn/restaurant"
+           elementFormDefault="qualified">
+
+  <xs:element name="RESTAURANT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NHANVIEN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NV" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MANV" type="xs:string"/>
+                    <xs:element name="TENVN" type="xs:string"/>
+                    <xs:element name="SDT" type="xs:string"/>
+                    <xs:element name="DIACHI" type="xs:string"/>
+                    <xs:element name="GIOITINH" type="xs:string"/>
+                    <xs:element name="USERNAME">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="6"/>
+                          <xs:maxLength value="50"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="PASSWORD">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="10"/>
+                          <xs:maxLength value="50"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="PK_NHANVIEN">
+            <xs:selector xpath="NV"/>
+            <xs:field xpath="MANV"/>
+          </xs:key>
+        </xs:element>
+
+        <xs:element name="BAN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="B" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TENBAN" type="xs:string"/>
+                    <xs:element name="SOBAN" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="PK_BAN">
+            <xs:selector xpath="B"/>
+            <xs:field xpath="TENBAN"/>
+          </xs:key>
+        </xs:element>
+
+        <xs:element name="MON">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MAMON" type="xs:string"/>
+                    <xs:element name="TENMON" type="xs:string"/>
+                    <xs:element name="GIA" type="xs:float"/>
+                    <xs:element name="HINHANH" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="PK_MON">
+            <xs:selector xpath="M"/>
+            <xs:field xpath="MAMON"/>
+          </xs:key>
+        </xs:element>
+
+        <xs:element name="HOADON">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HD" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SOHD" type="xs:string"/>
+                    <xs:element name="NGAYLAP" type="xs:date"/>
+                    <xs:element name="TONGTIEN" type="xs:float"/>
+                    <xs:element name="MANV" type="xs:string"/>
+                    <xs:element name="TENBAN" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+
+          <xs:key name="PK_HOADON">
+            <xs:selector xpath="HD"/>
+            <xs:field xpath="SOHD"/>
+          </xs:key>
+
+          <xs:keyref name="FK_HD_NV" refer="PK_NHANVIEN">
+            <xs:selector xpath="HD"/>
+            <xs:field xpath="MANV"/>
+          </xs:keyref>
+
+          <xs:keyref name="FK_HD_BAN" refer="PK_BAN">
+            <xs:selector xpath="HD"/>
+            <xs:field xpath="TENBAN"/>
+          </xs:keyref>
+        </xs:element>
+
+        <xs:element name="CTHD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CT" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SOHD" type="xs:string"/>
+                    <xs:element name="MAMON" type="xs:string"/>
+                    <xs:element name="SOLUONG" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+
+          <xs:keyref name="FK_CTHD_HD" refer="PK_HOADON">
+            <xs:selector xpath="CT"/>
+            <xs:field xpath="SOHD"/>
+          </xs:keyref>
+
+          <xs:keyref name="FK_CTHD_MON" refer="PK_MON">
+            <xs:selector xpath="CT"/>
+            <xs:field xpath="MAMON"/>
+          </xs:keyref>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

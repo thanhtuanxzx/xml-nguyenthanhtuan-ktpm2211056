@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="DSSV.xsd">
+
+  <KHOA>
+    <MAK>K01</MAK>
+    <TENK>congnghe</TENK>
+  </KHOA>
+  <KHOA>
+    <MAK>K02</MAK>
+    <TENK>kinhte</TENK>
+  </KHOA>
+
+  <LOP>
+    <MAL>L01</MAL>
+    <TENL>CN01</TENL>
+    <MAK>K01</MAK>
+  </LOP>
+  <LOP>
+    <MAL>L02</MAL>
+    <TENL>KT02</TENL>
+    <MAK>K02</MAK>
+  </LOP>
+
+  <SINHVIEN>
+    <MSSV>SV01</MSSV>
+    <HOTEN>Nguyen Van A</HOTEN>
+    <EMAIL>a@gmail.com</EMAIL>
+    <DIACHI>Can Tho</DIACHI>
+    <SDT>0912345678</SDT>
+    <MAL>L01</MAL>
+  </SINHVIEN>
+
+  <SINHVIEN>
+    <MSSV>SV02</MSSV>
+    <HOTEN>Tran Thi B</HOTEN>
+    <EMAIL>b@gmail.com</EMAIL>
+    <DIACHI>Vinh Long</DIACHI>
+    <SDT>0987654321</SDT>
+    <MAL>L02</MAL>
+  </SINHVIEN>
+
+</DSSV>
