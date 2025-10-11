@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESTAURANT>
+
+    <NHANVIEN>
+        <NV>
+            <MANV>NV01</MANV>
+            <TENVN>Nguyen Van A</TENVN>
+            <SDT>0901234567</SDT>
+            <DIACHI>Can Tho</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>nguyenvana</USERNAME>
+            <PASSWORD>abc123456789</PASSWORD>
+        </NV>
+        <NV>
+            <MANV>NV02</MANV>
+            <TENVN>Tran Thi B</TENVN>
+            <SDT>0907654321</SDT>
+            <DIACHI>Soc Trang</DIACHI>
+            <GIOITINH>Nu</GIOITINH>
+            <USERNAME>tranthib22</USERNAME>
+            <PASSWORD>mypassword12</PASSWORD>
+        </NV>
+        <NV>
+            <MANV>NV03</MANV>
+            <TENVN>Le Van C</TENVN>
+            <SDT>0909090909</SDT>
+            <DIACHI>Vinh Long</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>levanc33</USERNAME>
+            <PASSWORD>helloworld99</PASSWORD>
+        </NV>
+        <NV>
+            <MANV>NV04</MANV>
+            <TENVN>Pham Thi D</TENVN>
+            <SDT>0911222333</SDT>
+            <DIACHI>Hau Giang</DIACHI>
+            <GIOITINH>Nu</GIOITINH>
+            <USERNAME>phamthid44</USERNAME>
+            <PASSWORD>securepass10</PASSWORD>
+        </NV>
+        <NV>
+            <MANV>NV05</MANV>
+            <TENVN>Hoang Van E</TENVN>
+            <SDT>0933444555</SDT>
+            <DIACHI>Dong Thap</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>hoange55</USERNAME>
+            <PASSWORD>passcode8888</PASSWORD>
+        </NV>
+    </NHANVIEN>
+
+    <BAN>
+        <B>
+            <TENBAN>B01</TENBAN>
+            <SOBAN>1</SOBAN>
+        </B>
+        <B>
+            <TENBAN>B02</TENBAN>
+            <SOBAN>2</SOBAN>
+        </B>
+        <B>
+            <TENBAN>B03</TENBAN>
+            <SOBAN>3</SOBAN>
+        </B>
+        <B>
+            <TENBAN>B04</TENBAN>
+            <SOBAN>4</SOBAN>
+        </B>
+        <B>
+            <TENBAN>B05</TENBAN>
+            <SOBAN>5</SOBAN>
+        </B>
+    </BAN>
+
+    <MON>
+        <M>
+            <MAMON>M01</MAMON>
+            <TENMON>Com tam suon</TENMON>
+            <GIA>45000</GIA>
+            <HINHANH>comtam.jpg</HINHANH>
+        </M>
+        <M>
+            <MAMON>M02</MAMON>
+            <TENMON>Hu tieu nam vang</TENMON>
+            <GIA>40000</GIA>
+            <HINHANH>hutiunv.jpg</HINHANH>
+        </M>
+        <M>
+            <MAMON>M03</MAMON>
+            <TENMON>Bun bo Hue</TENMON>
+            <GIA>42000</GIA>
+            <HINHANH>bunbohue.jpg</HINHANH>
+        </M>
+        <M>
+            <MAMON>M04</MAMON>
+            <TENMON>Mi xao hai san</TENMON>
+            <GIA>55000</GIA>
+            <HINHANH>mixao.jpg</HINHANH>
+        </M>
+        <M>
+            <MAMON>M05</MAMON>
+            <TENMON>Ca phe sua da</TENMON>
+            <GIA>25000</GIA>
+            <HINHANH>cafe.jpg</HINHANH>
+        </M>
+        <M>
+            <MAMON>M06</MAMON>
+            <TENMON>Nuoc cam tuoi</TENMON>
+            <GIA>30000</GIA>
+            <HINHANH>nuoccam.jpg</HINHANH>
+        </M>
+    </MON>
+
+    <HOADON>
+        <HD>
+            <SOHD>HD01</SOHD>
+            <NGAYLAP>2025-10-01</NGAYLAP>
+            <TONGTIEN>95000</TONGTIEN>
+            <MANV>NV01</MANV>
+            <TENBAN>B01</TENBAN>
+        </HD>
+        <HD>
+            <SOHD>HD02</SOHD>
+            <NGAYLAP>2025-10-02</NGAYLAP>
+            <TONGTIEN>65000</TONGTIEN>
+            <MANV>NV02</MANV>
+            <TENBAN>B02</TENBAN>
+        </HD>
+        <HD>
+            <SOHD>HD03</SOHD>
+            <NGAYLAP>2025-10-03</NGAYLAP>
+            <TONGTIEN>115000</TONGTIEN>
+            <MANV>NV03</MANV>
+            <TENBAN>B03</TENBAN>
+        </HD>
+        <HD>
+            <SOHD>HD04</SOHD>
+            <NGAYLAP>2025-10-04</NGAYLAP>
+            <TONGTIEN>72000</TONGTIEN>
+            <MANV>NV04</MANV>
+            <TENBAN>B04</TENBAN>
+        </HD>
+        <HD>
+            <SOHD>HD05</SOHD>
+            <NGAYLAP>2025-10-05</NGAYLAP>
+            <TONGTIEN>130000</TONGTIEN>
+            <MANV>NV05</MANV>
+            <TENBAN>B05</TENBAN>
+        </HD>
+    </HOADON>
+
+    <CTHD>
+        <CT>
+            <SOHD>HD01</SOHD>
+            <MAMON>M01</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD01</SOHD>
+            <MAMON>M05</MAMON>
+            <SOLUONG>2</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD02</SOHD>
+            <MAMON>M02</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD03</SOHD>
+            <MAMON>M01</MAMON>
+            <SOLUONG>2</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD03</SOHD>
+            <MAMON>M06</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD04</SOHD>
+            <MAMON>M04</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD04</SOHD>
+            <MAMON>M05</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD05</SOHD>
+            <MAMON>M03</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT>
+            <SOHD>HD05</SOHD>
+            <MAMON>M04</MAMON>
+            <SOLUONG>2</SOLUONG>
+        </CT>
+    </CTHD>
+
+</RESTAURANT>
