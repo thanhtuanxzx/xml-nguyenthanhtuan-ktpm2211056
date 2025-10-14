@@ -1,0 +1,24 @@
+<catalog>
+    <categories>
+        <category id="c1">Electronics</category>
+        <category id="c2">Smartphone</category>
+        <category id="c3">Accessories</category>
+    </categories>
+    <products>
+        <product id="p001" categoryRef="c1">
+            <name>Laptop Dell Inspiron</name>
+            <price currency="USD">750</price>
+            <stock>120</stock>
+        </product>
+        <product id="p002" categoryRef="c2">
+            <name>iPhone 15 Pro</name>
+            <price currency="USD">1200</price>
+            <stock>50</stock>
+        </product>
+        <product id="p003" categoryRef="c3">
+            <name>Tai nghe Bluetooth Sony</name>
+            <price currency="USD">99</price>
+            <stock>300</stock>
+        </product>
+    </products>
+</catalog>
