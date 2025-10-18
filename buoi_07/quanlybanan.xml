@@ -1,0 +1,152 @@
+<?xml-stylesheet type="text/xsl" href="banan_3.xsl"?>
+
+<QUANLY>
+    <!-- Danh sách bàn -->
+    <BANS>
+        <BAN>
+            <SOBAN>1</SOBAN>
+            <TENBAN>Bàn 1</TENBAN>
+        </BAN>
+        <BAN>
+            <SOBAN>2</SOBAN>
+            <TENBAN>Bàn 2</TENBAN>
+        </BAN>
+        <BAN>
+            <SOBAN>3</SOBAN>
+            <TENBAN>Bàn 3</TENBAN>
+        </BAN>
+    </BANS>
+
+    <!-- Danh sách nhân viên -->
+    <NHANVIENS>
+        <NHANVIEN>
+            <MANV>NV01</MANV>
+            <TENV>Nguyễn Văn An</TENV>
+            <SDT>0901234567</SDT>
+            <DIACHI>Cần Thơ</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>an_nv</USERNAME>
+            <PASSWORD>123456</PASSWORD>
+        </NHANVIEN>
+        <NHANVIEN>
+            <MANV>NV02</MANV>
+            <TENV>Trần Thị Bình</TENV>
+            <SDT>0912345678</SDT>
+            <DIACHI>Hồ Chí Minh</DIACHI>
+            <GIOITINH>Nữ</GIOITINH>
+            <USERNAME>binh_tt</USERNAME>
+            <PASSWORD>abcdef</PASSWORD>
+        </NHANVIEN>
+        <NHANVIEN>
+            <MANV>NV03</MANV>
+            <TENV>Lê Hoàng Nam</TENV>
+            <SDT>0938765432</SDT>
+            <DIACHI>Hà Nội</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>nam_lh</USERNAME>
+            <PASSWORD>nam123</PASSWORD>
+        </NHANVIEN>
+    </NHANVIENS>
+
+    <!-- Danh sách món -->
+    <MONS>
+        <MON>
+            <MAMON>M01</MAMON>
+            <TENMON>Cá Kho Tộ</TENMON>
+            <GIA>50000</GIA>
+            <HINHANH>cakho.jpg</HINHANH>
+        </MON>
+        <MON>
+            <MAMON>M02</MAMON>
+            <TENMON>Canh Chua Cá Lóc</TENMON>
+            <GIA>40000</GIA>
+            <HINHANH>canhchua.jpg</HINHANH>
+        </MON>
+        <MON>
+            <MAMON>M03</MAMON>
+            <TENMON>Gỏi Cuốn</TENMON>
+            <GIA>30000</GIA>
+            <HINHANH>goicuon.jpg</HINHANH>
+        </MON>
+        <MON>
+            <MAMON>M04</MAMON>
+            <TENMON>Bò Lúc Lắc</TENMON>
+            <GIA>80000</GIA>
+            <HINHANH>boluclac.jpg</HINHANH>
+        </MON>
+    </MONS>
+
+    <!-- Danh sách hóa đơn -->
+    <HOADONS>
+        <HOADON>
+            <SOHD>HD01</SOHD>
+            <NGAYLAP>2025-10-01</NGAYLAP>
+            <TONGTIEN>90000</TONGTIEN>
+            <SOBAN>1</SOBAN>
+            <MANV>NV01</MANV>
+            <CTHDS>
+                <CTHD>
+                    <MAMON>M01</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CTHD>
+                <CTHD>
+                    <MAMON>M02</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CTHD>
+            </CTHDS>
+        </HOADON>
+
+        <HOADON>
+            <SOHD>HD02</SOHD>
+            <NGAYLAP>2025-10-02</NGAYLAP>
+            <TONGTIEN>110000</TONGTIEN>
+            <SOBAN>2</SOBAN>
+            <MANV>NV02</MANV>
+            <CTHDS>
+                <CTHD>
+                    <MAMON>M03</MAMON>
+                    <SOLUONG>2</SOLUONG>
+                </CTHD>
+                <CTHD>
+                    <MAMON>M02</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CTHD>
+            </CTHDS>
+        </HOADON>
+
+        <HOADON>
+            <SOHD>HD03</SOHD>
+            <NGAYLAP>2025-10-03</NGAYLAP>
+            <TONGTIEN>160000</TONGTIEN>
+            <SOBAN>3</SOBAN>
+            <MANV>NV03</MANV>
+            <CTHDS>
+                <CTHD>
+                    <MAMON>M04</MAMON>
+                    <SOLUONG>2</SOLUONG>
+                </CTHD>
+            </CTHDS>
+        </HOADON>
+		 <HOADON>
+            <SOHD>HD04</SOHD>
+            <NGAYLAP>2025-10-04</NGAYLAP>
+            <TONGTIEN>190000</TONGTIEN>
+            <SOBAN>2</SOBAN>
+            <MANV>NV01</MANV>
+            <CTHDS>
+                <CTHD>
+                    <MAMON>M04</MAMON>
+                    <SOLUONG>2</SOLUONG>
+                </CTHD>
+				 <CTHD>
+                    <MAMON>M01</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CTHD>
+				 <CTHD>
+                    <MAMON>M02</MAMON>
+                    <SOLUONG>4</SOLUONG>
+                </CTHD>
+            </CTHDS>
+        </HOADON>
+    </HOADONS>
+</QUANLY>
