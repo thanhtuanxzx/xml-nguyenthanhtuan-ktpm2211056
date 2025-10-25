@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Sach",
+    "type": "object",
+    "properties": {
+        "tieu_de": {
+            "type": "string"
+        },
+        "tac_gia": {
+            "type": "string"
+        },
+        "nam_xuat_ban": {
+            "type": "integer",
+            "minimum": 1800
+        },
+        "the_loai": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "so_trang": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "danh_gia": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+        }
+    },
+    "required": [
+        "tieu_de",
+        "tac_gia",
+        "nam_xuat_ban",
+        "the_loai",
+        "so_trang",
+        "danh_gia"
+    ]
+}

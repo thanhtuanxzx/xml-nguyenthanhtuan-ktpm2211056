@@ -1,0 +1,10 @@
+{
+    "ho_ten": "Phạm Minh Khang",
+    "tuoi": 20,
+    "gioi_tinh": "Nam",
+    "diem_trung_binh": 8.2,
+    "dia_chi": {
+        "thanh_pho": "Đà Nẵng",
+        "quoc_gia": "Việt Nam"
+    }
+}

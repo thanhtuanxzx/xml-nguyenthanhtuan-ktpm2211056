@@ -1,0 +1,25 @@
+{
+    "nhan_vien": [
+        {
+            "id": "NV01",
+            "ho_ten": "Lê Thị Mai",
+            "chuc_vu": "Kế toán",
+            "luong": 12000000,
+            "trang_thai": "Đang làm"
+        },
+        {
+            "id": "NV02",
+            "ho_ten": "Ngô Văn Huy",
+            "chuc_vu": "Nhân viên IT",
+            "luong": 15000000,
+            "trang_thai": "Đang làm"
+        },
+        {
+            "id": "NV03",
+            "ho_ten": "Đinh Hoàng Tú",
+            "chuc_vu": "Nhân viên kho",
+            "luong": 8000000,
+            "trang_thai": "Nghỉ việc"
+        }
+    ]
+}

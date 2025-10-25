@@ -1,0 +1,22 @@
+{
+    "san_pham": [
+        {
+            "ten": "Điện thoại Samsung Galaxy A55",
+            "gia": 9500000,
+            "so_luong_ton": 15,
+            "danh_muc": "Điện thoại"
+        },
+        {
+            "ten": "Máy ảnh Canon EOS R50",
+            "gia": 21500000,
+            "so_luong_ton": 4,
+            "danh_muc": "Máy ảnh"
+        },
+        {
+            "ten": "Loa Bluetooth JBL Go 4",
+            "gia": 1250000,
+            "so_luong_ton": 22,
+            "danh_muc": "Âm thanh"
+        }
+    ]
+}

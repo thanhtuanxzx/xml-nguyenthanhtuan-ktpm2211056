@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "SinhVien",
+    "type": "object",
+    "properties": {
+        "ho_ten": {
+            "type": "string"
+        },
+        "tuoi": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "gioi_tinh": {
+            "type": "string",
+            "enum": [
+                "Nam",
+                "Nữ",
+                "Khác"
+            ]
+        },
+        "diem_trung_binh": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+        },
+        "dia_chi": {
+            "type": "object",
+            "properties": {
+                "thanh_pho": {
+                    "type": "string"
+                },
+                "quoc_gia": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "thanh_pho",
+                "quoc_gia"
+            ]
+        }
+    },
+    "required": [
+        "ho_ten",
+        "tuoi",
+        "gioi_tinh",
+        "diem_trung_binh",
+        "dia_chi"
+    ]
+}

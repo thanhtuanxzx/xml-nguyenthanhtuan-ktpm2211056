@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "DanhSachSanPham",
+    "type": "object",
+    "properties": {
+        "san_pham": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "ten": {
+                        "type": "string"
+                    },
+                    "gia": {
+                        "type": "number",
+                        "minimum": 0
+                    },
+                    "so_luong_ton": {
+                        "type": "integer",
+                        "minimum": 0
+                    },
+                    "danh_muc": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "ten",
+                    "gia",
+                    "so_luong_ton",
+                    "danh_muc"
+                ]
+            }
+        }
+    },
+    "required": [
+        "san_pham"
+    ]
+}
