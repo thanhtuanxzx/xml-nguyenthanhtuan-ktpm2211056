@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "username": "minh123",
+      "password": "Abc@1234",
+      "emails": ["minh123@example.com", "backup@gmail.com"],
+      "age": 16,
+      "address": {
+        "city": "Cần Thơ",
+        "street": "45 Nguyễn Trãi"
+      },
+      "hobbies": ["đọc sách", "chơi game"],
+      "isVerified": false
+    },
+    {
+      "username": "lan456",
+      "password": "Xyz@5678",
+      "emails": ["lan456@example.com"],
+      "age": 18,
+      "address": {
+        "city": "Hà Nội"
+      },
+      "hobbies": ["vẽ", "nghe nhạc"]
+    }
+  ]
+}

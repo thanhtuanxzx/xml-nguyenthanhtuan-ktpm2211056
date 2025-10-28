@@ -1,0 +1,33 @@
+{
+  "id": "U12345",
+  "name": "Nguyễn Văn A",
+  "age": 15,
+  "email": "vana@example.com",
+  "isActive": true,
+  "address": {
+    "city": "Cần Thơ",
+    "district": "Ninh Kiều",
+    "street": "123 Lý Tự Trọng",
+    "postalCode": "900000"
+  },
+  "courses": [
+    {
+      "name": "Toán học",
+      "score": 8.5,
+      "teacher": {
+        "name": "Thầy B",
+        "email": "thayb@school.edu.vn"
+      }
+    },
+    {
+      "name": "Vật lý",
+      "score": 9.2,
+      "teacher": {
+        "name": "Cô C",
+        "email": "coc@school.edu.vn"
+      }
+    }
+  ],
+  "createdAt": "2025-10-01T09:30:00Z",
+  "role": "student"
+}
